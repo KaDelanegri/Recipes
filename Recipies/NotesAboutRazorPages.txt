@@ -1,0 +1,9 @@
+- na pasta wwwroot ficam os arquivos estáticos: css, images, js, lib;
+
+- na pasta Pages contém as páginas da aplicação e os arquivos: _Layout.cshtml, _ViewImports.chtml e _ViewStart.cshtm usados para configurar a aplicação;
+
+appsettings.json - arquivo de configuração contendo a string de conexão para o banco de dados
+
+Program.cs - arquivo de entrada da aplicação
+
+Startup.cs - arquivo de inicialização da aplicação

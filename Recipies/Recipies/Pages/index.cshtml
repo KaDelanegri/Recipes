@@ -1,0 +1,52 @@
+﻿@page
+
+
+@* starting the page, always at the beginning and ASP.NET Core will render the page *@
+
+<html>
+<head>
+    <title>Welcome! This is The Recipes!</title>
+</head>
+<body>
+    <header class="container site-header">
+        <div class="row">
+            <h1 class="main-logo"><a href="/">The Recipes</a></h1>
+        </div>
+        <div class="row">
+            <nav class="navbar">
+                @*Creating the iterative menu*@
+                <ul class="nav nav-pills">
+                    <li><a href="/About">About</a></li>
+                    <li><a href="/Blog">Blog</a></li>
+                    <li><a class="active" href="/">Recipes</a></li>
+                    <li><a href="/Portfolio">Portfolio</a></li>
+                    <li><a href="/Contact">Contact</a></li>
+                </ul>
+                <ul class="nav nav-pills">
+                    <li>
+                        <a href="/Account/Login">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <h2 class="title">My Favorite Recipes</h2>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row recipes">
+            <div class="recipes col-md-4">
+                <img class="img img-thumbnail" src="https://casaefesta.com/wp-content/uploads/2019/10/bolos-decorados-para-o-dia-das-criancas-9.jpg" />
+                <h3><a href="/Recipe">Birthday Cake for Fido</a></h3>
+                <p>Treat your puppy to a delicious birthday treat!</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="text-center">
+            <span class="text-muted">Last Rendered:   </span>
+        </div>
+    </footer>
+</body>
+</html>
+
